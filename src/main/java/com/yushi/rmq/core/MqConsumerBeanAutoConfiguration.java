@@ -6,17 +6,16 @@
  * 任何其他个人或组织均不得以任何形式将本文件或本文件的部分代码用于其他商业用途。
  *
  */
-package com.yushi.core;
+package com.yushi.rmq.core;
 
-import com.yushi.annotation.RocketMqConsumer;
-import com.yushi.annotation.RocketMqListener;
-import com.yushi.enums.ConsumerTypeEnum;
-import com.yushi.support.converter.StringMessageBodyConverter;
+import com.yushi.rmq.annotation.RocketMqConsumer;
+import com.yushi.rmq.annotation.RocketMqListener;
+import com.yushi.rmq.enums.ConsumerTypeEnum;
+import com.yushi.rmq.support.converter.StringMessageBodyConverter;
 import org.apache.rocketmq.client.consumer.DefaultMQPullConsumer;
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
 import org.apache.rocketmq.client.consumer.listener.*;
 import org.apache.rocketmq.client.exception.MQClientException;
-import org.apache.rocketmq.common.message.MessageConst;
 import org.apache.rocketmq.common.message.MessageExt;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

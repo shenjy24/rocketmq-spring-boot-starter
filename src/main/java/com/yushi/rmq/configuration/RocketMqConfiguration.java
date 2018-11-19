@@ -6,12 +6,12 @@
  * 任何其他个人或组织均不得以任何形式将本文件或本文件的部分代码用于其他商业用途。
  *
  */
-package com.yushi.configuration;
+package com.yushi.rmq.configuration;
 
-import com.yushi.annotation.EnableRocketMq;
-import com.yushi.core.RocketMQTemplate;
-import com.yushi.support.converter.MessageBodyConverter;
-import com.yushi.support.converter.StringMessageBodyConverter;
+import com.yushi.rmq.annotation.EnableRocketMq;
+import com.yushi.rmq.core.RocketMQTemplate;
+import com.yushi.rmq.support.converter.MessageBodyConverter;
+import com.yushi.rmq.support.converter.StringMessageBodyConverter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;

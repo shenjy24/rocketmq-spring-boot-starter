@@ -6,7 +6,7 @@
  * 任何其他个人或组织均不得以任何形式将本文件或本文件的部分代码用于其他商业用途。
  *
  */
-package com.yushi.support.utils;
+package com.yushi.rmq.support.utils;
 
 import java.util.Arrays;
 

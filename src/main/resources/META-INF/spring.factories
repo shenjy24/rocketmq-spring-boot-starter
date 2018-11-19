@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.yushi.configuration.RocketMqConfiguration
+com.yushi.rmq.configuration.RocketMqConfiguration
