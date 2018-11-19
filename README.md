@@ -1,4 +1,4 @@
-## spring-boot-starter-rocketmq的集成使用
+## rocketmq-spring-boot-starter的集成使用
 
 #### 版本
 - JDK: 1.8
