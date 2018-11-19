@@ -1,22 +1,32 @@
-spring-boot-starter-rocketmq的集成使用
+## spring-boot-starter-rocketmq的集成使用
 
-# 使用
-1. 引入依赖
+#### 版本
+- JDK: 1.8
+- Spring Boot: 2.0.4-RELEASE
+- RocketMQ: 4.3.0
+
+#### 使用
+1.引入依赖
 ```xml
     <dependency>
         <groupId>com.yushi</groupId>
-        <artifactId>spring-boot-starter-rocketmq</artifactId>
-        <version>1.0.8</version>
+        <artifactId>rocketmq-spring-boot-starter</artifactId>
+        <version>1.0.0</version>
     </dependency>
 ```
-2. application.properties
+
+2.application.yml
 ```
 #rocketmq配置
-spring.rocketmq.namesrvAddr=192.168.51.80:9876;192.168.51.81:9876
+spring:
+    rocketmq:
+        namesrvAddr: 192.168.51.80:9876;192.168.51.81:9876
 ```
 
-3. 生产者
-// topic手动在console创建.
+3.生产者  
+
+- topic需要手动在console创建
+
 ```java
 @Service
 public class RocketMQService {
@@ -39,7 +49,7 @@ public class RocketMQService {
 }
 ```
 
-4. 消费者,这里模拟了两个消费监听者
+4.消费者,这里模拟了两个消费监听者
 ```java
 @RocketMqConsumer
 public class RocketMqTestListenHandler {
@@ -58,6 +68,5 @@ public class RocketMqTestListenHandler {
     }
 }
 ```
-# 扩展功能
 
    
