@@ -1,6 +1,6 @@
-package com.yushi.rmq.support.builder;
+package com.jonas.rmq.support.builder;
 
-import com.yushi.rmq.support.converter.MessageBodyConverter;
+import com.jonas.rmq.support.converter.MessageBodyConverter;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.common.message.Message;

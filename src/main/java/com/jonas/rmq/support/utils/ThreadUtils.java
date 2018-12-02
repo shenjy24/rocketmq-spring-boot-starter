@@ -1,4 +1,4 @@
-package com.yushi.rmq.support.utils;
+package com.jonas.rmq.support.utils;
 
 
 public class ThreadUtils {

@@ -1,4 +1,4 @@
-package com.yushi.rmq.support.converter;
+package com.jonas.rmq.support.converter;
 
 import org.apache.rocketmq.client.exception.MQClientException;
 

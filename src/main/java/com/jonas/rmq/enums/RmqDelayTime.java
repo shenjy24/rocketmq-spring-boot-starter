@@ -6,9 +6,9 @@
  * 任何其他个人或组织均不得以任何形式将本文件或本文件的部分代码用于其他商业用途。
  *
  */
-package com.yushi.rmq.enums;
+package com.jonas.rmq.enums;
 
-import com.yushi.rmq.support.utils.GwsUtil;
+import com.jonas.rmq.support.utils.GwsUtil;
 
 /**
  * Rocket mq 延时时间

@@ -6,12 +6,12 @@
  * 任何其他个人或组织均不得以任何形式将本文件或本文件的部分代码用于其他商业用途。
  *
  */
-package com.yushi.rmq.core;
+package com.jonas.rmq.core;
 
-import com.yushi.rmq.annotation.RocketMqConsumer;
-import com.yushi.rmq.annotation.RocketMqListener;
-import com.yushi.rmq.enums.ConsumerTypeEnum;
-import com.yushi.rmq.support.converter.StringMessageBodyConverter;
+import com.jonas.rmq.annotation.RocketMqConsumer;
+import com.jonas.rmq.annotation.RocketMqListener;
+import com.jonas.rmq.enums.ConsumerTypeEnum;
+import com.jonas.rmq.support.converter.StringMessageBodyConverter;
 import org.apache.rocketmq.client.consumer.DefaultMQPullConsumer;
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
 import org.apache.rocketmq.client.consumer.listener.*;

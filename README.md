@@ -21,6 +21,8 @@
 spring:
     rocketmq:
         namesrvAddr: 192.168.51.80:9876;192.168.51.81:9876
+    main:
+        allow-bean-definition-overriding: true
 ```
 
 3.生产者  

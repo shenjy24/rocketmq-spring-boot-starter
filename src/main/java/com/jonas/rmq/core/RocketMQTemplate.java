@@ -1,9 +1,9 @@
-package com.yushi.rmq.core;
+package com.jonas.rmq.core;
 
-import com.yushi.rmq.enums.RmqDelayTime;
-import com.yushi.rmq.support.builder.MessageBuilder;
-import com.yushi.rmq.support.converter.MessageBodyConverter;
-import com.yushi.rmq.support.utils.ThreadUtils;
+import com.jonas.rmq.enums.RmqDelayTime;
+import com.jonas.rmq.support.builder.MessageBuilder;
+import com.jonas.rmq.support.converter.MessageBodyConverter;
+import com.jonas.rmq.support.utils.ThreadUtils;
 import org.apache.rocketmq.client.exception.MQBrokerException;
 import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
